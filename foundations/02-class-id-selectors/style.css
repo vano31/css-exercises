@@ -4,8 +4,19 @@
     font-family: Verdana, 'DejaVu Sans', sans-serif ;
 }
 
+
+.large {
+    font-size: 24px;
+}
+
 #ocean {
     color: blue;
     font-size: 36px;
 
+}
+
+#grass {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
 }
