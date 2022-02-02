@@ -1,0 +1,17 @@
+
+.tick,
+.tock {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', 'sans-serif';
+
+}
+
+.tick {
+    background-color: black;
+    color: white;
+}
+
+.tock {
+    background-color: #fa7516;
+    color: #16fa2d;
+}
