@@ -68,3 +68,14 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+
+.mid-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+}
