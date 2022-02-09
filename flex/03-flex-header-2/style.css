@@ -41,6 +41,12 @@ button {
   margin-left: auto;
 }
 
+
+.right-images {
+  display: flex;
+}
+
+
 a {
   /* this removes the line under our links */
   text-decoration: none;
