@@ -12,6 +12,11 @@ img {
   font-weight: 900;
 }
 
+
+.pages {
+  display: flex;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
