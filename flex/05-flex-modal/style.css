@@ -24,6 +24,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* Only the width is defined, which means that the height 
+  can change. Icon, header, and closed button do need to be 
+  in the same flexbox as a row */
 }
 
 .icon {
@@ -78,4 +81,9 @@ button.cancel {
 .items {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+
+.mid-section {
+  flex: 1 10 auto;
 }
