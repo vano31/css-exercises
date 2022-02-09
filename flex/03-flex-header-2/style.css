@@ -38,12 +38,16 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  margin-left: auto;
+  /*margin-left: auto;*/
 }
 
 
 .right-images {
   display: flex;
+  margin-left: auto;
+  gap: 8px;
+  align-items: center;
+  margin-right: 8px;
 }
 
 
