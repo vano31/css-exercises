@@ -15,6 +15,10 @@ body {
   justify-content: center;
 }
 
+.content {
+  padding: 10px;
+}
+
 .modal {
   background: white;
   width: 480px;
