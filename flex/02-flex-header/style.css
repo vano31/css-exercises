@@ -22,6 +22,16 @@ ul {
   gap: 8px;
 }
 
+
+.left-links {
+  margin-left: 10px;
+}
+
+.right-links {
+  margin-right: 10px;
+}
+
+
 a {
   font-size: 22px;
   background: white;
