@@ -15,9 +15,7 @@ body {
   justify-content: center;
 }
 
-.content {
-  padding: 10px;
-}
+
 
 .modal {
   background: white;
@@ -73,3 +71,21 @@ button.cancel {
   display: flex;
   
 }
+
+.content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 1.125em;
+}
+
+.header {
+  align-self: center;
+}
+
+
+
