@@ -30,3 +30,9 @@ input {
 .right-links {
   list-style-type: none;
 }
+
+.left-links a,
+.right-links a {
+  text-decoration: none;
+  color: gray;
+}
