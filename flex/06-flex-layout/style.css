@@ -63,6 +63,7 @@ input {
 
 .footer {
   flex: 1;
+  background-color: #eeeeee;
 }
 
 .header .left-links {
