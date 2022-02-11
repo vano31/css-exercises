@@ -48,6 +48,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* New code 1 below - move button to right edge */
+  margin-left: auto;
 }
 
 button {
@@ -69,23 +71,46 @@ button.cancel {
 
 .top {
   display: flex;
+  /* New code 2 below- add gap between icon and header 
+  which is the same as content padding --> 15px*/
+  gap: 15px;
+
   
 }
 
+/* New code 5 below - seperate
+ .top, .text, and .selection-buttons with gap */
 .content {
-  padding: 10px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
+  gap: 15px;
+  /*new code 6- set flex-wrap to wrap and make a row-gap value*/
+  flex-wrap: wrap;
+  row-gap: 30px;
+
 }
+
+
+
 
 .header {
   font-weight: bold;
-  font-size: 1.125em;
+  font-size: 1.25em;
 }
 
+
+/* New code 3 below- comment out align center  for header*/
 .header {
-  align-self: center;
+  /*align-self: center; */
 }
 
+/* New code 4 below: in HTML, make continue and cancel button
+new div .selection-buttons, then remove div.buttom, */
+ 
 
+.close-button,
+.header {
+  align-self: baseline;
+}
 
