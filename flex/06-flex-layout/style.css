@@ -8,7 +8,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  /*align-items: center;
+  This is removed because align-items 
+  determines the cross-axis size of flex items, and it is 
+  normally at stretch. I want it to stay as stretch so that the
+  flex'items's width, which defines the container's cross axis 
+  while the box is in the column direction, takes up the 
+  entire flex container's width,
+   which should be the whole page*/
+
 }
 
 img {
