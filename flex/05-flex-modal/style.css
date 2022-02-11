@@ -70,3 +70,7 @@ button.cancel {
   display: flex;
 }
 
+.top {
+  display: flex;
+  justify-content: space-between;
+}
