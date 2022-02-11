@@ -50,7 +50,8 @@ input {
 }
 
 .header {
-  flex: 1;
+  /*flex: 1; removed because you dont want to interfered
+  with .body's justify-content of space-between*/
   display: flex;
   justify-content: space-between;
 }
@@ -62,7 +63,8 @@ input {
 }
 
 .footer {
-  flex: 1;
+  /*flex: 1; removed because you dont want to interfered
+  with .body's justify-content of space-between*/
   background-color: #eeeeee;
 }
 
