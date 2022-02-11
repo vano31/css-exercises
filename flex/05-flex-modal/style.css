@@ -69,6 +69,7 @@ button.cancel {
 .content {
   display: flex;
   gap: 15px;
+  padding: 15px;
 }
 
 .top {
