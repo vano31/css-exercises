@@ -66,6 +66,8 @@ input {
   /*flex: 1; removed because you dont want to interfered
   with .body's justify-content of space-between*/
   background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header .left-links {
@@ -80,3 +82,14 @@ input {
   gap: 20px;
 }
 
+.footer .left-links {
+  display: flex;
+  padding: 0px;
+  gap: 20px;
+}
+
+.footer .right-links {
+  display: flex;
+  padding: 0px;
+  gap: 20px;
+}
