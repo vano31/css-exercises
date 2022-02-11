@@ -74,3 +74,8 @@ button.cancel {
   display: flex;
   justify-content: space-between;
 }
+
+.not-icon {
+  display: flex;
+  flex-direction: column;
+}
