@@ -51,6 +51,8 @@ input {
 
 .header {
   flex: 1;
+  display: flex;
+  justify-content: space-between;
 }
 
 .content {
@@ -62,3 +64,16 @@ input {
 .footer {
   flex: 1;
 }
+
+.header .left-links {
+  display: flex;
+  padding: 0px;
+  gap: 20px;
+}
+
+.header .right-links {
+  display: flex;
+  padding: 0px;
+  gap: 20px;
+}
+
