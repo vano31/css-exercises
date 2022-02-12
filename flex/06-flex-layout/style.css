@@ -96,3 +96,11 @@ input {
   padding: 0px;
   gap: 20px;
 }
+
+.lefty {
+  padding-left: 10px;
+}
+
+.righty {
+  padding-right: 10px;
+}
