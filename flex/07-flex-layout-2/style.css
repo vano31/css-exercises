@@ -37,6 +37,11 @@ body {
   border-radius: 4px;
 }
 
+.card-space {
+  display: flex;
+  align-items: flex-start;
+}
+
 a {
   text-decoration: none;
   color: white;
