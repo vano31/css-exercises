@@ -62,4 +62,9 @@ a {
 
 ul {
   list-style-type: none;
+  font-size: 24px;
+}
+
+li {
+  padding: 16px;
 }
