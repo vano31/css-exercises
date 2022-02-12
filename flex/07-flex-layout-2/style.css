@@ -35,12 +35,15 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  height: 350px;
+  width: 450px;
 }
 
 .card-space {
   display: flex;
   align-items: flex-start;
   padding: 32px;
+  flex-wrap: wrap;
 }
 
 a {
