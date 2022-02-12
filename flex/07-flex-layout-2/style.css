@@ -40,6 +40,7 @@ body {
 .card-space {
   display: flex;
   align-items: flex-start;
+  padding: 32px;
 }
 
 a {
