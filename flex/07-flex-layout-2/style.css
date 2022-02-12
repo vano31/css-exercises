@@ -43,8 +43,9 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  height: 350px;
-  width: 450px;
+  height: 300px;
+  width: 400px;
+  padding: 20px;
 }
 
 .card-space {
@@ -52,6 +53,7 @@ body {
   align-items: flex-start;
   padding: 32px;
   flex-wrap: wrap;
+  gap: 25px;
 }
 
 a {
